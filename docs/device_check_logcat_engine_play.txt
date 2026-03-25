@@ -1,0 +1,124 @@
+﻿--------- beginning of main
+02-07 11:44:36.507  9476  9476 I oid:engine_play: Late-enabling -Xcheck:jni
+02-07 11:44:36.550  9476  9476 I oid:engine_play: Using CollectorTypeCMC GC.
+02-07 11:44:36.563  9476  9476 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+02-07 11:44:36.576  9476  9476 D ActivityThread: setConscryptValidator
+02-07 11:44:36.576  9476  9476 D ActivityThread: setConscryptValidator - put
+02-07 11:44:36.613  9476  9476 I ActivityThread: Relaunch all activities: onCoreSettingsChange
+02-07 11:44:36.639  9476  9476 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+02-07 11:44:36.640  9476  9476 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+02-07 11:44:37.488  9476  9476 W oid:engine_play: Failed to find entry 'classes.dex': Entry not found
+02-07 11:44:37.489  9476  9476 W oid:engine_play: Failed to find entry 'classes.dex': Entry not found
+02-07 11:44:37.492  9476  9476 W oid:engine_play: Failed to find entry 'classes.dex': Entry not found
+02-07 11:44:37.494  9476  9476 D nativeloader: Configuring clns-9 for other apk /data/app/~~yH6DbBpBCA1WBojCt4Lh7A==/com.katago.android-Y8piWk1MWamVLR2DXPc5dg==/base.apk:/data/app/~~yH6DbBpBCA1WBojCt4Lh7A==/com.katago.android-Y8piWk1MWamVLR2DXPc5dg==/split_config.arm64_v8a.apk:/data/app/~~yH6DbBpBCA1WBojCt4Lh7A==/com.katago.android-Y8piWk1MWamVLR2DXPc5dg==/split_config.xxhdpi.apk:/data/app/~~yH6DbBpBCA1WBojCt4Lh7A==/com.katago.android-Y8piWk1MWamVLR2DXPc5dg==/split_katago_assets.apk. target_sdk_version=35, uses_libraries=, library_path=/data/app/~~yH6DbBpBCA1WBojCt4Lh7A==/com.katago.android-Y8piWk1MWamVLR2DXPc5dg==/lib/arm64:/data/app/~~yH6DbBpBCA1WBojCt4Lh7A==/com.katago.android-Y8piWk1MWamVLR2DXPc5dg==/base.apk!/lib/arm64-v8a:/data/app/~~yH6DbBpBCA1WBojCt4Lh7A==/com.katago.android-Y8piWk1MWamVLR2DXPc5dg==/split_config.arm64_v8a.apk!/lib/arm64-v8a:/data/app/~~yH6DbBpBCA1WBojCt4Lh7A==/com.katago.android-Y8piWk1MWamVLR2DXPc5dg==/split_config.xxhdpi.apk!/lib/arm64-v8a:/data/app/~~yH6DbBpBCA1WBojCt4Lh7A==/com.katago.android-Y8piWk1MWamVLR2DXPc5dg==/split_ka
+02-07 11:44:37.504  9476  9476 D CompatChangeReporter: Compat change id reported: 202956589; UID 10767; state: ENABLED
+02-07 11:44:37.539  9476  9476 V GraphicsEnvironment: Currently set values for:
+02-07 11:44:37.539  9476  9476 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+02-07 11:44:37.539  9476  9476 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+02-07 11:44:37.539  9476  9476 V GraphicsEnvironment: com.katago.android is not listed in per-application setting
+02-07 11:44:37.539  9476  9476 V GraphicsEnvironment: ANGLE allowlist from config: 
+02-07 11:44:37.539  9476  9476 V GraphicsEnvironment: com.katago.android is not listed in ANGLE allowlist or settings, returning default
+02-07 11:44:37.540  9476  9476 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+02-07 11:44:37.717  9476  9476 I Katago  : app.log path: /storage/emulated/0/Android/data/com.katago.android/files/logs/app.log
+02-07 11:44:37.718  9476  9476 I Katago  : App.onCreate() called. Process: com.katago.android:engine_play
+02-07 11:44:37.736  9476  9476 I Katago  : Skipping UI/Firebase initialization for engine process
+02-07 11:44:37.840  9476  9476 I Katago  : KataGoPlayService created in process: 9476
+02-07 11:44:37.847  9476  9476 I Katago  : KataGoPlayService bound
+02-07 11:44:37.963  9476  9476 D nativeloader: Load /data/app/~~yH6DbBpBCA1WBojCt4Lh7A==/com.katago.android-Y8piWk1MWamVLR2DXPc5dg==/split_config.arm64_v8a.apk!/lib/arm64-v8a/libkatago_jni_cpu.so using class loader ns clns-9 (caller=/data/app/~~yH6DbBpBCA1WBojCt4Lh7A==/com.katago.android-Y8piWk1MWamVLR2DXPc5dg==/base.apk!classes10.dex): ok
+02-07 11:44:38.046  9476  9476 I KataGoJNI: JNI_OnLoad: Global tables initialized
+02-07 11:44:38.046  9476  9476 I Katago  : Native library loaded: katago_jni_cpu (CPU-only build)
+02-07 11:44:38.056  9476  9476 I KataGoJNI: setHomeDir: HOME=/data/user/0/com.katago.android/files/katago_home_play
+02-07 11:44:38.056  9476  9476 I Katago  : Native HOME set to: /data/user/0/com.katago.android/files/katago_home_play
+02-07 11:44:38.069  9476  9508 I KataGoJNI: registerCallback called
+02-07 11:44:38.077  9476  9516 I Katago  : initEngine requested. Model: /data/user/0/com.katago.android/files/katago/b6.txt (exists=true, size=13146385) Human: 
+02-07 11:44:39.364  9476  9516 I KataGoJNI: initEngine: Initialized NNEvaluator
+02-07 11:44:39.364  9476  9516 I KataGoJNI: initEngine: No human model path provided, skipping human evaluator
+02-07 11:44:39.364  9476  9516 I KataGoJNI: initEngine: ModelFile=/data/user/0/com.katago.android/files/katago/b6.txt size=13146385 bytes, concurrentEvals=1 batch=16
+02-07 11:44:39.375  9476  9516 E KataGoJNI: initEngine Fatal Error: Key 'maxVisits' must be in the range 1 to 1125899906842624 in config file /data/user/0/com.katago.android/files/katago/play.cfg
+02-07 11:44:39.386  9476  9516 E Katago  : Remote initEngine failed
+02-07 11:44:39.386  9476  9516 E Katago  : java.lang.RuntimeException: Key 'maxVisits' must be in the range 1 to 1125899906842624 in config file /data/user/0/com.katago.android/files/katago/play.cfg
+02-07 11:44:39.386  9476  9516 E Katago  : 	at com.katago.android.engine.NativeBridge.nativeInitEngine(Native Method)
+02-07 11:44:39.386  9476  9516 E Katago  : 	at com.katago.android.engine.NativeBridge.initEngine(NativeBridge.kt:116)
+02-07 11:44:39.386  9476  9516 E Katago  : 	at com.katago.android.engine.KataGoPlayService$binder$1.initEngine(KataGoService.kt:381)
+02-07 11:44:39.386  9476  9516 E Katago  : 	at com.katago.android.engine.IKataGoEngine$Stub.onTransact(IKataGoEngine.java:116)
+02-07 11:44:39.386  9476  9516 E Katago  : 	at android.os.Binder.execTransactInternal(Binder.java:1457)
+02-07 11:44:39.386  9476  9516 E Katago  : 	at android.os.Binder.execTransact(Binder.java:1401)
+02-07 11:44:39.386  9476  9516 E Katago  : 
+02-07 11:44:39.386  9476  9516 E Katago  : java.lang.RuntimeException: Key 'maxVisits' must be in the range 1 to 1125899906842624 in config file /data/user/0/com.katago.android/files/katago/play.cfg
+02-07 11:44:39.386  9476  9516 E Katago  : 	at com.katago.android.engine.NativeBridge.nativeInitEngine(Native Method)
+02-07 11:44:39.386  9476  9516 E Katago  : 	at com.katago.android.engine.NativeBridge.initEngine(NativeBridge.kt:116)
+02-07 11:44:39.386  9476  9516 E Katago  : 	at com.katago.android.engine.KataGoPlayService$binder$1.initEngine(KataGoService.kt:381)
+02-07 11:44:39.386  9476  9516 E Katago  : 	at com.katago.android.engine.IKataGoEngine$Stub.onTransact(IKataGoEngine.java:116)
+02-07 11:44:39.386  9476  9516 E Katago  : 	at android.os.Binder.execTransactInternal(Binder.java:1457)
+02-07 11:44:39.386  9476  9516 E Katago  : 	at android.os.Binder.execTransact(Binder.java:1401)
+02-07 11:44:39.388  9476  9516 E JavaBinder: *** Uncaught remote exception! Exceptions are not yet supported across processes. Client PID 8188 UID 10767.
+02-07 11:44:39.388  9476  9516 E JavaBinder: java.lang.RuntimeException: android.os.RemoteException: Key 'maxVisits' must be in the range 1 to 1125899906842624 in config file /data/user/0/com.katago.android/files/katago/play.cfg
+02-07 11:44:39.388  9476  9516 E JavaBinder: 	at android.os.Parcel.writeException(Parcel.java:3121)
+02-07 11:44:39.388  9476  9516 E JavaBinder: 	at android.os.Binder.execTransactInternal(Binder.java:1486)
+02-07 11:44:39.388  9476  9516 E JavaBinder: 	at android.os.Binder.execTransact(Binder.java:1401)
+02-07 11:44:39.388  9476  9516 E JavaBinder: Caused by: android.os.RemoteException: Key 'maxVisits' must be in the range 1 to 1125899906842624 in config file /data/user/0/com.katago.android/files/katago/play.cfg
+02-07 11:44:39.388  9476  9516 E JavaBinder: 	at com.katago.android.engine.KataGoPlayService$binder$1.initEngine(KataGoService.kt:386)
+02-07 11:44:39.388  9476  9516 E JavaBinder: 	at com.katago.android.engine.IKataGoEngine$Stub.onTransact(IKataGoEngine.java:116)
+02-07 11:44:39.388  9476  9516 E JavaBinder: 	at android.os.Binder.execTransactInternal(Binder.java:1457)
+02-07 11:44:39.388  9476  9516 E JavaBinder: 	... 1 more
+02-07 11:44:39.415  9476  9516 W KataGoJNI: analyzeTop4: Engine not initialized (check 1)
+02-07 11:44:40.091  9476  9516 I Katago  : initEngine requested. Model: /data/user/0/com.katago.android/files/katago/b6.txt (exists=true, size=13146385) Human: 
+02-07 11:44:41.967  9476  9516 I KataGoJNI: initEngine: Initialized NNEvaluator
+02-07 11:44:41.967  9476  9516 I KataGoJNI: initEngine: No human model path provided, skipping human evaluator
+02-07 11:44:41.967  9476  9516 I KataGoJNI: initEngine: ModelFile=/data/user/0/com.katago.android/files/katago/b6.txt size=13146385 bytes, concurrentEvals=1 batch=16
+02-07 11:44:41.968  9476  9516 E KataGoJNI: initEngine Fatal Error: Key 'maxVisits' must be in the range 1 to 1125899906842624 in config file /data/user/0/com.katago.android/files/katago/play.cfg
+02-07 11:44:41.984  9476  9516 E Katago  : Remote initEngine failed
+02-07 11:44:41.984  9476  9516 E Katago  : java.lang.RuntimeException: Key 'maxVisits' must be in the range 1 to 1125899906842624 in config file /data/user/0/com.katago.android/files/katago/play.cfg
+02-07 11:44:41.984  9476  9516 E Katago  : 	at com.katago.android.engine.NativeBridge.nativeInitEngine(Native Method)
+02-07 11:44:41.984  9476  9516 E Katago  : 	at com.katago.android.engine.NativeBridge.initEngine(NativeBridge.kt:116)
+02-07 11:44:41.984  9476  9516 E Katago  : 	at com.katago.android.engine.KataGoPlayService$binder$1.initEngine(KataGoService.kt:381)
+02-07 11:44:41.984  9476  9516 E Katago  : 	at com.katago.android.engine.IKataGoEngine$Stub.onTransact(IKataGoEngine.java:116)
+02-07 11:44:41.984  9476  9516 E Katago  : 	at android.os.Binder.execTransactInternal(Binder.java:1457)
+02-07 11:44:41.984  9476  9516 E Katago  : 	at android.os.Binder.execTransact(Binder.java:1401)
+02-07 11:44:41.984  9476  9516 E Katago  : 
+02-07 11:44:41.984  9476  9516 E Katago  : java.lang.RuntimeException: Key 'maxVisits' must be in the range 1 to 1125899906842624 in config file /data/user/0/com.katago.android/files/katago/play.cfg
+02-07 11:44:41.984  9476  9516 E Katago  : 	at com.katago.android.engine.NativeBridge.nativeInitEngine(Native Method)
+02-07 11:44:41.984  9476  9516 E Katago  : 	at com.katago.android.engine.NativeBridge.initEngine(NativeBridge.kt:116)
+02-07 11:44:41.984  9476  9516 E Katago  : 	at com.katago.android.engine.KataGoPlayService$binder$1.initEngine(KataGoService.kt:381)
+02-07 11:44:41.984  9476  9516 E Katago  : 	at com.katago.android.engine.IKataGoEngine$Stub.onTransact(IKataGoEngine.java:116)
+02-07 11:44:41.984  9476  9516 E Katago  : 	at android.os.Binder.execTransactInternal(Binder.java:1457)
+02-07 11:44:41.984  9476  9516 E Katago  : 	at android.os.Binder.execTransact(Binder.java:1401)
+02-07 11:44:41.986  9476  9516 E JavaBinder: *** Uncaught remote exception! Exceptions are not yet supported across processes. Client PID 8188 UID 10767.
+02-07 11:44:41.986  9476  9516 E JavaBinder: java.lang.RuntimeException: android.os.RemoteException: Key 'maxVisits' must be in the range 1 to 1125899906842624 in config file /data/user/0/com.katago.android/files/katago/play.cfg
+02-07 11:44:41.986  9476  9516 E JavaBinder: 	at android.os.Parcel.writeException(Parcel.java:3121)
+02-07 11:44:41.986  9476  9516 E JavaBinder: 	at android.os.Binder.execTransactInternal(Binder.java:1486)
+02-07 11:44:41.986  9476  9516 E JavaBinder: 	at android.os.Binder.execTransact(Binder.java:1401)
+02-07 11:44:41.986  9476  9516 E JavaBinder: Caused by: android.os.RemoteException: Key 'maxVisits' must be in the range 1 to 1125899906842624 in config file /data/user/0/com.katago.android/files/katago/play.cfg
+02-07 11:44:41.986  9476  9516 E JavaBinder: 	at com.katago.android.engine.KataGoPlayService$binder$1.initEngine(KataGoService.kt:386)
+02-07 11:44:41.986  9476  9516 E JavaBinder: 	at com.katago.android.engine.IKataGoEngine$Stub.onTransact(IKataGoEngine.java:116)
+02-07 11:44:41.986  9476  9516 E JavaBinder: 	at android.os.Binder.execTransactInternal(Binder.java:1457)
+02-07 11:44:41.986  9476  9516 E JavaBinder: 	... 1 more
+02-07 11:45:43.765  9476  9516 W KataGoJNI: analyzeTop4: Engine not initialized (check 1)
+02-07 11:45:43.768  9476  9516 W KataGoJNI: getBoardColors: Engine not initialized
+02-07 11:45:44.264  9476  9516 W KataGoJNI: analyzeTop4: Engine not initialized (check 1)
+02-07 11:45:44.266  9476  9516 W KataGoJNI: getBoardColors: Engine not initialized
+02-07 11:45:47.004  9476  9516 W KataGoJNI: analyzeTop4: Engine not initialized (check 1)
+02-07 11:45:47.005  9476  9516 W KataGoJNI: getBoardColors: Engine not initialized
+02-07 11:45:48.339  9476  9516 W KataGoJNI: analyzeTop4: Engine not initialized (check 1)
+02-07 11:45:48.340  9476  9516 W KataGoJNI: getBoardColors: Engine not initialized
+02-07 11:45:49.849  9476  9516 W KataGoJNI: analyzeTop4: Engine not initialized (check 1)
+02-07 11:45:49.850  9476  9516 W KataGoJNI: getBoardColors: Engine not initialized
+02-07 11:45:51.390  9476  9516 W KataGoJNI: analyzeTop4: Engine not initialized (check 1)
+02-07 11:45:51.391  9476  9516 W KataGoJNI: getBoardColors: Engine not initialized
+02-07 11:45:53.058  9476  9516 W KataGoJNI: analyzeTop4: Engine not initialized (check 1)
+02-07 11:45:53.058  9476  9516 W KataGoJNI: getBoardColors: Engine not initialized
+02-07 11:45:54.549  9476  9516 W KataGoJNI: analyzeTop4: Engine not initialized (check 1)
+02-07 11:45:54.550  9476  9516 W KataGoJNI: getBoardColors: Engine not initialized
+02-07 11:45:55.423  9476  9516 W KataGoJNI: analyzeTop4: Engine not initialized (check 1)
+02-07 11:45:55.424  9476  9516 W KataGoJNI: getBoardColors: Engine not initialized
+02-07 11:45:56.738  9476  9516 W KataGoJNI: isLegal: Engine not initialized
+02-07 11:45:56.778  9476  9516 W KataGoJNI: analyzeTop4: Engine not initialized (check 1)
+02-07 11:45:56.778  9476  9516 W KataGoJNI: getBoardColors: Engine not initialized
+02-07 11:45:57.432  9476  9516 W KataGoJNI: isLegal: Engine not initialized
+02-07 11:45:57.968  9476  9516 W KataGoJNI: isLegal: Engine not initialized
+02-07 11:45:58.389  9476  9516 W KataGoJNI: isLegal: Engine not initialized
+02-07 11:45:58.589  9476  9516 W KataGoJNI: isLegal: Engine not initialized
+02-07 11:45:58.754  9476  9516 W KataGoJNI: isLegal: Engine not initialized
+02-07 11:45:58.943  9476  9516 W KataGoJNI: isLegal: Engine not initialized
+02-07 11:45:59.454  9476  9516 W KataGoJNI: isLegal: Engine not initialized
+02-07 11:45:59.932  9476  9516 W KataGoJNI: isLegal: Engine not initialized

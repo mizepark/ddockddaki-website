@@ -1,0 +1,94 @@
+﻿--------- beginning of main
+02-07 11:44:33.772  9249  9249 I .android:engine: Late-enabling -Xcheck:jni
+02-07 11:44:33.816  9249  9249 I .android:engine: Using CollectorTypeCMC GC.
+02-07 11:44:33.834  9249  9249 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+02-07 11:44:33.839  9249  9249 D ActivityThread: setConscryptValidator
+02-07 11:44:33.840  9249  9249 D ActivityThread: setConscryptValidator - put
+02-07 11:44:33.869  9249  9249 I ActivityThread: Relaunch all activities: onCoreSettingsChange
+02-07 11:44:33.898  9249  9249 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+02-07 11:44:33.898  9249  9249 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+02-07 11:44:34.620  9249  9249 W .android:engine: Failed to find entry 'classes.dex': Entry not found
+02-07 11:44:34.621  9249  9249 W .android:engine: Failed to find entry 'classes.dex': Entry not found
+02-07 11:44:34.622  9249  9249 W .android:engine: Failed to find entry 'classes.dex': Entry not found
+02-07 11:44:34.629  9249  9249 D nativeloader: Configuring clns-9 for other apk /data/app/~~yH6DbBpBCA1WBojCt4Lh7A==/com.katago.android-Y8piWk1MWamVLR2DXPc5dg==/base.apk:/data/app/~~yH6DbBpBCA1WBojCt4Lh7A==/com.katago.android-Y8piWk1MWamVLR2DXPc5dg==/split_config.arm64_v8a.apk:/data/app/~~yH6DbBpBCA1WBojCt4Lh7A==/com.katago.android-Y8piWk1MWamVLR2DXPc5dg==/split_config.xxhdpi.apk:/data/app/~~yH6DbBpBCA1WBojCt4Lh7A==/com.katago.android-Y8piWk1MWamVLR2DXPc5dg==/split_katago_assets.apk. target_sdk_version=35, uses_libraries=, library_path=/data/app/~~yH6DbBpBCA1WBojCt4Lh7A==/com.katago.android-Y8piWk1MWamVLR2DXPc5dg==/lib/arm64:/data/app/~~yH6DbBpBCA1WBojCt4Lh7A==/com.katago.android-Y8piWk1MWamVLR2DXPc5dg==/base.apk!/lib/arm64-v8a:/data/app/~~yH6DbBpBCA1WBojCt4Lh7A==/com.katago.android-Y8piWk1MWamVLR2DXPc5dg==/split_config.arm64_v8a.apk!/lib/arm64-v8a:/data/app/~~yH6DbBpBCA1WBojCt4Lh7A==/com.katago.android-Y8piWk1MWamVLR2DXPc5dg==/split_config.xxhdpi.apk!/lib/arm64-v8a:/data/app/~~yH6DbBpBCA1WBojCt4Lh7A==/com.katago.android-Y8piWk1MWamVLR2DXPc5dg==/split_ka
+02-07 11:44:34.632  9249  9249 D CompatChangeReporter: Compat change id reported: 202956589; UID 10767; state: ENABLED
+02-07 11:44:34.678  9249  9249 V GraphicsEnvironment: Currently set values for:
+02-07 11:44:34.678  9249  9249 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+02-07 11:44:34.678  9249  9249 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+02-07 11:44:34.678  9249  9249 V GraphicsEnvironment: com.katago.android is not listed in per-application setting
+02-07 11:44:34.678  9249  9249 V GraphicsEnvironment: ANGLE allowlist from config: 
+02-07 11:44:34.678  9249  9249 V GraphicsEnvironment: com.katago.android is not listed in ANGLE allowlist or settings, returning default
+02-07 11:44:34.678  9249  9249 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+02-07 11:44:34.829  9249  9249 I Katago  : app.log path: /storage/emulated/0/Android/data/com.katago.android/files/logs/app.log
+02-07 11:44:34.829  9249  9249 I Katago  : App.onCreate() called. Process: com.katago.android:engine
+02-07 11:44:34.839  9249  9249 I Katago  : Skipping UI/Firebase initialization for engine process
+02-07 11:44:34.878  9249  9249 I Katago  : KataGoService created in process: 9249
+02-07 11:44:34.889  9249  9249 I Katago  : KataGoService bound
+02-07 11:44:34.964  9249  9249 D nativeloader: Load /data/app/~~yH6DbBpBCA1WBojCt4Lh7A==/com.katago.android-Y8piWk1MWamVLR2DXPc5dg==/split_config.arm64_v8a.apk!/lib/arm64-v8a/libkatago_jni_cpu.so using class loader ns clns-9 (caller=/data/app/~~yH6DbBpBCA1WBojCt4Lh7A==/com.katago.android-Y8piWk1MWamVLR2DXPc5dg==/base.apk!classes10.dex): ok
+02-07 11:44:35.088  9249  9249 I KataGoJNI: JNI_OnLoad: Global tables initialized
+02-07 11:44:35.088  9249  9249 I Katago  : Native library loaded: katago_jni_cpu (CPU-only build)
+02-07 11:44:35.100  9249  9249 I KataGoJNI: setHomeDir: HOME=/data/user/0/com.katago.android/files/katago_home_analysis
+02-07 11:44:35.101  9249  9249 I Katago  : Native HOME set to: /data/user/0/com.katago.android/files/katago_home_analysis
+02-07 11:44:35.116  9249  9304 I KataGoJNI: registerCallback called
+02-07 11:44:35.119  9249  9259 I Katago  : initEngine requested. Model: /data/user/0/com.katago.android/files/katago/b10.bin (exists=true, size=12003218) Human: 
+02-07 11:44:35.862  9249  9259 I KataGoJNI: initEngine: Initialized NNEvaluator
+02-07 11:44:35.862  9249  9259 I KataGoJNI: initEngine: No human model path provided, skipping human evaluator
+02-07 11:44:35.862  9249  9259 I KataGoJNI: initEngine: ModelFile=/data/user/0/com.katago.android/files/katago/b10.bin size=12003218 bytes, concurrentEvals=1 batch=16
+02-07 11:44:35.862  9249  9259 I KataGoJNI: initEngine: Loaded. Visits=100000, Threads=7, Time=3.00
+02-07 11:44:35.981  9249  9259 I KataGoJNI: initEngine: Warmup successful
+02-07 11:44:36.027  9249  9259 I KataGoJNI: initEngine: Main Search object initialized
+02-07 11:44:36.032  9249  9259 I KataGoJNI: analyzeTop4: jMaxVisits=2 jMaxTime=0.30 requestId=-999 movesLen=0
+02-07 11:44:36.032  9249  9259 I KataGoJNI: analyzeTop4: Threads=7, Time=0.30, Visits=2 (dynamic, moves=0)
+02-07 11:44:36.354  9249  9259 I KataGoJNI: analyzeTop4: Search finished visits=2 elapsed=0.32s stopped=1
+02-07 11:44:37.127  9249  9259 I Katago  : initEngine requested. Model: /data/user/0/com.katago.android/files/katago/b10.bin (exists=true, size=12003218) Human: 
+02-07 11:44:37.130  9249  9259 I KataGoJNI: initEngine: Reused model. Updated params: visits=100000, threads=7, maxTime=3.00
+02-07 11:44:40.052  9249  9259 I KataGoJNI: analyzeTop4: jMaxVisits=0 jMaxTime=3.00 requestId=72339069014638594 movesLen=0
+02-07 11:44:40.052  9249  9259 I KataGoJNI: analyzeTop4: Threads=7, Time=3.00, Visits=1000000 (dynamic, moves=0)
+02-07 11:44:43.264  9249  9259 I KataGoJNI: analyzeTop4: Search finished visits=90 elapsed=3.20s stopped=1
+02-07 11:44:43.668  9249  9304 I KataGoJNI: analyzeTop4: jMaxVisits=0 jMaxTime=3.00 requestId=72339069014638596 movesLen=2
+02-07 11:44:43.668  9249  9304 I KataGoJNI: analyzeTop4: Threads=7, Time=3.00, Visits=1000000 (dynamic, moves=1)
+02-07 11:44:43.874  9249 10034 W KataGoJNI: extractAnalysisData: empty data
+02-07 11:44:46.791  9249  9304 I KataGoJNI: analyzeTop4: Search finished visits=82 elapsed=3.12s stopped=1
+02-07 11:44:46.968  9249  9304 I KataGoJNI: analyzeTop4: jMaxVisits=0 jMaxTime=3.00 requestId=72339069014638597 movesLen=0
+02-07 11:44:46.968  9249  9304 I KataGoJNI: analyzeTop4: Threads=7, Time=3.00, Visits=1000000 (dynamic, moves=0)
+02-07 11:44:50.059  9249  9304 I KataGoJNI: analyzeTop4: Search finished visits=222 elapsed=3.09s stopped=1
+02-07 11:44:50.435  9249  9304 I KataGoJNI: analyzeTop4: jMaxVisits=0 jMaxTime=3.00 requestId=72339069014638599 movesLen=2
+02-07 11:44:50.435  9249  9304 I KataGoJNI: analyzeTop4: Threads=7, Time=3.00, Visits=1000000 (dynamic, moves=1)
+02-07 11:44:53.553  9249  9304 I KataGoJNI: analyzeTop4: Search finished visits=150 elapsed=3.12s stopped=1
+02-07 11:44:53.773  9249  9259 I KataGoJNI: analyzeTop4: jMaxVisits=0 jMaxTime=3.00 requestId=72339069014638601 movesLen=4
+02-07 11:44:53.774  9249  9259 I KataGoJNI: analyzeTop4: Threads=7, Time=3.00, Visits=1000000 (dynamic, moves=2)
+02-07 11:44:53.876  9249 10617 W KataGoJNI: extractAnalysisData: empty data
+02-07 11:44:56.967  9249  9259 I KataGoJNI: analyzeTop4: Search finished visits=111 elapsed=3.19s stopped=1
+02-07 11:44:59.309  9249  9260 I KataGoJNI: analyzeTop4: jMaxVisits=0 jMaxTime=3.00 requestId=72339069014638603 movesLen=6
+02-07 11:44:59.309  9249  9260 I KataGoJNI: analyzeTop4: Threads=7, Time=3.00, Visits=1000000 (dynamic, moves=3)
+02-07 11:45:02.411  9249  9260 I KataGoJNI: analyzeTop4: Search finished visits=75 elapsed=3.10s stopped=1
+02-07 11:45:02.573  9249 10852 I KataGoJNI: analyzeTop4: jMaxVisits=0 jMaxTime=3.00 requestId=72339069014638605 movesLen=8
+02-07 11:45:02.573  9249 10852 I KataGoJNI: analyzeTop4: Threads=7, Time=3.00, Visits=1000000 (dynamic, moves=4)
+02-07 11:45:05.681  9249 10852 I KataGoJNI: analyzeTop4: Search finished visits=68 elapsed=3.11s stopped=1
+02-07 11:45:05.985  9249  9260 I KataGoJNI: analyzeTop4: jMaxVisits=0 jMaxTime=3.00 requestId=72339069014638608 movesLen=10
+02-07 11:45:05.986  9249  9260 I KataGoJNI: analyzeTop4: Threads=7, Time=3.00, Visits=1000000 (dynamic, moves=5)
+02-07 11:45:09.134  9249  9260 I KataGoJNI: analyzeTop4: Search finished visits=87 elapsed=3.15s stopped=1
+02-07 11:45:09.377  9249 12218 I KataGoJNI: analyzeTop4: jMaxVisits=0 jMaxTime=3.00 requestId=72339069014638609 movesLen=12
+02-07 11:45:09.377  9249 12218 I KataGoJNI: analyzeTop4: Threads=7, Time=3.00, Visits=1000000 (dynamic, moves=6)
+02-07 11:45:12.500  9249 12218 I KataGoJNI: analyzeTop4: Search finished visits=88 elapsed=3.12s stopped=1
+02-07 11:45:12.771  9249  9260 I KataGoJNI: analyzeTop4: jMaxVisits=0 jMaxTime=3.00 requestId=72339069014638611 movesLen=14
+02-07 11:45:12.772  9249  9260 I KataGoJNI: analyzeTop4: Threads=7, Time=3.00, Visits=1000000 (dynamic, moves=7)
+02-07 11:45:15.865  9249  9260 I KataGoJNI: analyzeTop4: Search finished visits=110 elapsed=3.09s stopped=1
+02-07 11:45:16.017  9249 12218 I KataGoJNI: analyzeTop4: jMaxVisits=0 jMaxTime=3.00 requestId=72339069014638613 movesLen=16
+02-07 11:45:16.017  9249 12218 I KataGoJNI: analyzeTop4: Threads=7, Time=3.00, Visits=1000000 (dynamic, moves=8)
+02-07 11:45:19.139  9249 12218 I KataGoJNI: analyzeTop4: Search finished visits=97 elapsed=3.12s stopped=1
+02-07 11:45:19.358  9249 12218 I KataGoJNI: analyzeTop4: jMaxVisits=0 jMaxTime=3.00 requestId=72339069014638615 movesLen=18
+02-07 11:45:19.359  9249 12218 I KataGoJNI: analyzeTop4: Threads=7, Time=3.00, Visits=1000000 (dynamic, moves=9)
+02-07 11:45:22.470  9249 12218 I KataGoJNI: analyzeTop4: Search finished visits=120 elapsed=3.11s stopped=1
+02-07 11:45:22.747  9249  9260 I KataGoJNI: analyzeTop4: jMaxVisits=0 jMaxTime=3.00 requestId=72339069014638617 movesLen=20
+02-07 11:45:22.747  9249  9260 I KataGoJNI: analyzeTop4: Threads=7, Time=3.00, Visits=1000000 (dynamic, moves=10)
+02-07 11:45:25.842  9249  9260 I KataGoJNI: analyzeTop4: Search finished visits=77 elapsed=3.09s stopped=1
+02-07 11:45:26.056  9249 12218 I KataGoJNI: analyzeTop4: jMaxVisits=0 jMaxTime=3.00 requestId=72339069014638619 movesLen=22
+02-07 11:45:26.056  9249 12218 I KataGoJNI: analyzeTop4: Threads=7, Time=3.00, Visits=1000000 (dynamic, moves=11)
+02-07 11:45:29.185  9249 12218 I KataGoJNI: analyzeTop4: Search finished visits=108 elapsed=3.13s stopped=1
+02-07 11:46:04.517  9249 12218 I KataGoJNI: analyzeTop4: jMaxVisits=0 jMaxTime=3.00 requestId=72339069014638639 movesLen=22
+02-07 11:46:04.517  9249 12218 I KataGoJNI: analyzeTop4: Threads=7, Time=3.00, Visits=1000000 (dynamic, moves=11)
+02-07 11:46:07.602  9249 12218 I KataGoJNI: analyzeTop4: Search finished visits=252 elapsed=3.08s stopped=1
+02-07 11:46:07.795  9249 12218 I KataGoJNI: analyzeTop4: jMaxVisits=0 jMaxTime=3.00 requestId=72339069014638641 movesLen=24
+02-07 11:46:07.796  9249 12218 I KataGoJNI: analyzeTop4: Threads=7, Time=3.00, Visits=1000000 (dynamic, moves=12)
+02-07 11:46:10.897  9249 12218 I KataGoJNI: analyzeTop4: Search finished visits=141 elapsed=3.10s stopped=1
